@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@import './spacing.css';
+
+@theme {
+  --font-sans: var(--font-pretendard), system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply wrap-break-word break-keep;
+  }
+
+  button,
+  a,
+  input[type='radio'],
+  input[type='checkbox'] {
+    @apply cursor-pointer;
+  }
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    @apply m-0 appearance-none;
+  }
+
+  input[type='number'] {
+    appearance: textfield;
+  }
+
+  input[type='search']::-webkit-search-cancel-button {
+    @apply hidden;
+  }
+
+  /* autofill 배경색 투명하게 처리 */
+  input:-webkit-autofill {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+      -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+      -webkit-text-fill-color: var(--foreground) !important;
+      caret-color: var(--foreground) !important;
+      transition: background-color 5000s ease-in-out 0s;
+    }
+    &:disabled {
+      -webkit-text-fill-color: var(--muted-foreground) !important;
+      -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+    }
+  }
+}

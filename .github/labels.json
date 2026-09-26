@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Priority: Critical",
+    "color": "#8c001a",
+    "description": "우선순위 긴급"
+  },
+  {
+    "name": "Priority: High",
+    "color": "#FF0000",
+    "description": "우선순위 상"
+  },
+  {
+    "name": "Priority: Medium",
+    "color": "#E77471",
+    "description": "우선순위 중"
+  },
+  {
+    "name": "Priority: Low",
+    "color": "#F9966b",
+    "description": "우선순위 하"
+  },
+  {
+    "name": "Type: Feature",
+    "color": "#1D76DB",
+    "description": "새로운 사용자 가치 창출"
+  },
+  {
+    "name": "Type: Fix",
+    "color": "#D73A4A",
+    "description": "의도하지 않은 동작 수정"
+  },
+  {
+    "name": "Type: Hotfix",
+    "color": "#8C001A",
+    "description": "긴급 수정 사항"
+  },
+  {
+    "name": "Type: Refactor",
+    "color": "#5319E7",
+    "description": "구조 개선/정리"
+  },
+  {
+    "name": "Type: Docs",
+    "color": "#0075CA",
+    "description": "문서 작성"
+  },
+  {
+    "name": "Type: Chore",
+    "color": "#586069",
+    "description": "의존성/설정/빌드/CI/잡일"
+  },
+  {
+    "name": "Type: Release",
+    "color": "#C2E0C6",
+    "description": "배포/릴리즈 사항"
+  },
+  {
+    "name": "Scope: UI",
+    "color": "#7057FF",
+    "description": "UI 관련"
+  },
+  {
+    "name": "Scope: API",
+    "color": "#1D76DB",
+    "description": "서버와의 통신 관련"
+  },
+  {
+    "name": "Scope: State",
+    "color": "#A2EEEF",
+    "description": "내부 데이터 흐름 관련"
+  },
+  {
+    "name": "Scope: Routing",
+    "color": "#FBCA04",
+    "description": "Next.js 구조 & 이동 관련"
+  },
+  {
+    "name": "Scope: Build",
+    "color": "#76694e",
+    "description": "개발/배포 환경 관련"
+  }
+]
