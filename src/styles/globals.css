@@ -7,6 +7,8 @@
 @import './radius.css';
 @import './shadow.css';
 @import './spacing.css';
+@import '@hyorispace/nst-tiptap/style.css';
+@import './nst-editor.css';
 
 @theme {
   --font-sans: var(--font-pretendard), system-ui, sans-serif;
