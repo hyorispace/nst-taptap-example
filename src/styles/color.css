@@ -1,0 +1,274 @@
+:root {
+  --white: #fafafa;
+  --black: #000000;
+
+  /* ── Text ── */
+  --text-primary: #17181a;
+  --text-secondary: #303236;
+  --text-tertiary: #484b51;
+  --text-disabled: #5f636b;
+  --text-inverse: #fafafa;
+
+  --text-interactive-primary: #6f37bd;
+  --text-interactive-primary-hover: #926ee2;
+  --text-interactive-secondary: #5f636b;
+  --text-interactive-secondary-hover: #9ca0a6;
+  --text-interactive-selected: #622ca6;
+
+  /* ── Background ── */
+  --bg-primary: #eff0f1;
+  --bg-secondary: #fafafa;
+  --bg-tertiary: #ffffff;
+  --bg-disabled: #dddee1;
+  --bg-disabled-subtle: #7d828a;
+  --bg-inverse: #17181a;
+
+  --bg-interactive-primary: #6f37bd;
+  --bg-interactive-primary-hover: #c7baf1;
+  --bg-interactive-secondary: #fafafa;
+  --bg-interactive-secondary-hover: #eff0f1;
+  --bg-interactive-selected: #e3dcf8;
+  --bg-interactive-selected-hover: #f5f0fc;
+
+  /* ── Border ── */
+  --border-primary: #9ca0a6;
+  --border-secondary: #bcbec3;
+  --border-tertiary: #dddee1;
+  --border-focus-ring: #ac95e9;
+  --border-disabled: #9ca0a6;
+  --border-inverse: #1f2124;
+
+  --border-interactive-primary: #6f37bd;
+  --border-interactive-primary-hover: #926ee2;
+  --border-interactive-secondary: #5f636b;
+  --border-interactive-secondary-hover: #7d828a;
+
+  /* ── Icon ── */
+  --icon-primary: #17181a;
+  --icon-secondary: #303236;
+  --icon-tertiary: #484b51;
+  --icon-brand: #6f37bd;
+  --icon-disabled: #5f636b;
+  --icon-inverse: #fafafa;
+
+  --icon-interactive-primary: #6f37bd;
+  --icon-interactive-primary-hover: #926ee2;
+  --icon-interactive-selected: #622ca6;
+  --icon-interactive-secondary: #5f636b;
+  --icon-interactive-secondary-hover: #9ca0a6;
+
+  /* ── Status ── */
+  --status-info: #287efd;
+  --status-info-bold: #0d336e;
+  --status-info-subtle: #cce4fe;
+  --status-success: #17b26b;
+  --status-success-bold: #0a4d30;
+  --status-success-subtle: #ccffec;
+  --status-danger: #dc4646;
+  --status-danger-bold: #791716;
+  --status-danger-subtle: #f8d8d8;
+  --status-warning: #ffbe18;
+  --status-warning-bold: #4d3700;
+  --status-warning-subtle: #ffe5a3;
+  --status-alert: #ff8718;
+  --status-alert-bold: #8f4300;
+  --status-alert-subtle: #ffe7d1;
+  --status-brand: #6f37bd;
+  --status-brand-bold: #e3dcf8;
+  --status-brand-subtle: #3f1575;
+
+  /* ── Chart ── */
+  --chart-100: #e3dcf8;
+  --chart-200: #c7baf1;
+  --chart-300: #ac95e9;
+  --chart-400: #926ee2;
+  --chart-500: #6f37bd;
+  --chart-600: #622ca6;
+  --chart-700: #dddee1;
+}
+
+/* ── Dark mode ── */
+.dark {
+  /* ── Text ── */
+  --text-primary: #eff0f1;
+  --text-secondary: #bcbec3;
+  --text-tertiary: #7d828a;
+  --text-disabled: #5f636b;
+  --text-inverse: #17181a;
+
+  --text-interactive-primary: #926ee2;
+  --text-interactive-primary-hover: #ac95e9;
+  --text-interactive-secondary: #484b51;
+  --text-interactive-secondary-hover: #7d828a;
+  --text-interactive-selected: #6f37bd;
+
+  /* ── Background ── */
+  --bg-primary: #303236;
+  --bg-secondary: #1f2124;
+  --bg-tertiary: #17181a;
+  --bg-disabled: #303236;
+  --bg-disabled-subtle: #7d828a;
+  --bg-inverse: #fafafa;
+
+  --bg-interactive-primary: #6f37bd;
+  --bg-interactive-primary-hover: #926ee2;
+  --bg-interactive-secondary: #1f2124;
+  --bg-interactive-secondary-hover: #303236;
+  --bg-interactive-selected: #ac95e9;
+  --bg-interactive-selected-hover: #c7baf1;
+
+  /* ── Border ── */
+  --border-primary: #7d828a;
+  --border-secondary: #484b51;
+  --border-tertiary: #303236;
+  --border-focus-ring: #c7baf1;
+  --border-disabled: #5f636b;
+  --border-inverse: #fafafa;
+
+  --border-interactive-primary: #6f37bd;
+  --border-interactive-primary-hover: #926ee2;
+  --border-interactive-secondary: #484b51;
+  --border-interactive-secondary-hover: #5f636b;
+
+  /* ── Icon ── */
+  --icon-primary: #eff0f1;
+  --icon-secondary: #bcbec3;
+  --icon-tertiary: #7d828a;
+  --icon-brand: #6f37bd;
+  --icon-disabled: #5f636b;
+  --icon-inverse: #17181a;
+
+  --icon-interactive-primary: #926ee2;
+  --icon-interactive-primary-hover: #ac95e9;
+  --icon-interactive-selected: #6f37bd;
+  --icon-interactive-secondary: #484b51;
+  --icon-interactive-secondary-hover: #7d828a;
+
+  /* ── Status ── */
+  --status-info: #287efd;
+  --status-info-bold: #cce4fe;
+  --status-info-subtle: #0d336e;
+  --status-success: #17b26b;
+  --status-success-bold: #ccffec;
+  --status-success-subtle: #0a4d30;
+  --status-danger: #dc4646;
+  --status-danger-bold: #f8d8d8;
+  --status-danger-subtle: #791716;
+  --status-warning: #cc9200;
+  --status-warning-bold: #ffe5a3;
+  --status-warning-subtle: #4d3700;
+  --status-alert: #ff8718;
+  --status-alert-bold: #ffe7d1;
+  --status-alert-subtle: #8f4300;
+  --status-brand: #6f37bd;
+  --status-brand-bold: #e3dcf8;
+  --status-brand-subtle: #3f1575;
+
+  /* ── Chart ── */
+  --chart-100: #e3dcf8;
+  --chart-200: #c7baf1;
+  --chart-300: #ac95e9;
+  --chart-400: #926ee2;
+  --chart-500: #6f37bd;
+  --chart-600: #622ca6;
+  --chart-700: #303236;
+}
+
+@theme inline {
+  --color-*: initial;
+
+  --color-white: var(--white);
+  --color-black: var(--black);
+
+  /* ── Text ── */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-disabled: var(--text-disabled);
+  --color-text-inverse: var(--text-inverse);
+
+  --color-text-interactive-primary: var(--text-interactive-primary);
+  --color-text-interactive-primary-hover: var(--text-interactive-primary-hover);
+  --color-text-interactive-secondary: var(--text-interactive-secondary);
+  --color-text-interactive-secondary-hover: var(
+    --text-interactive-secondary-hover
+  );
+  --color-text-interactive-selected: var(--text-interactive-selected);
+
+  /* ── Background ── */
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
+  --color-bg-inverse: var(--bg-inverse);
+  --color-bg-disabled: var(--bg-disabled);
+  --color-bg-disabled-subtle: var(--bg-disabled-subtle);
+
+  --color-bg-interactive-primary: var(--bg-interactive-primary);
+  --color-bg-interactive-primary-hover: var(--bg-interactive-primary-hover);
+  --color-bg-interactive-secondary: var(--bg-interactive-secondary);
+  --color-bg-interactive-secondary-hover: var(--bg-interactive-secondary-hover);
+  --color-bg-interactive-selected: var(--bg-interactive-selected);
+  --color-bg-interactive-selected-hover: var(--bg-interactive-selected-hover);
+
+  /* ── Border ── */
+  --color-border-primary: var(--border-primary);
+  --color-border-secondary: var(--border-secondary);
+  --color-border-tertiary: var(--border-tertiary);
+  --color-border-focus-ring: var(--border-focus-ring);
+  --color-border-disabled: var(--border-disabled);
+  --color-border-inverse: var(--border-inverse);
+
+  --color-border-interactive-primary: var(--border-interactive-primary);
+  --color-border-interactive-primary-hover: var(
+    --border-interactive-primary-hover
+  );
+  --color-border-interactive-secondary: var(--border-interactive-secondary);
+  --color-border-interactive-secondary-hover: var(
+    --border-interactive-secondary-hover
+  );
+
+  /* ── Icon ── */
+  --color-icon-primary: var(--icon-primary);
+  --color-icon-secondary: var(--icon-secondary);
+  --color-icon-tertiary: var(--icon-tertiary);
+  --color-icon-brand: var(--icon-brand);
+  --color-icon-disabled: var(--icon-disabled);
+  --color-icon-inverse: var(--icon-inverse);
+
+  --color-icon-interactive-primary: var(--icon-interactive-primary);
+  --color-icon-interactive-primary-hover: var(--icon-interactive-primary-hover);
+  --color-icon-interactive-secondary: var(--icon-interactive-secondary);
+  --color-icon-interactive-secondary-hover: var(
+    --icon-interactive-secondary-hover
+  );
+  --color-icon-interactive-selected: var(--icon-interactive-selected);
+
+  /* ── Status ── */
+  --color-status-info: var(--status-info);
+  --color-status-info-bold: var(--status-info-bold);
+  --color-status-info-subtle: var(--status-info-subtle);
+  --color-status-success: var(--status-success);
+  --color-status-success-bold: var(--status-success-bold);
+  --color-status-success-subtle: var(--status-success-subtle);
+  --color-status-danger: var(--status-danger);
+  --color-status-danger-bold: var(--status-danger-bold);
+  --color-status-danger-subtle: var(--status-danger-subtle);
+  --color-status-warning: var(--status-warning);
+  --color-status-warning-bold: var(--status-warning-bold);
+  --color-status-warning-subtle: var(--status-warning-subtle);
+  --color-status-alert: var(--status-alert);
+  --color-status-alert-bold: var(--status-alert-bold);
+  --color-status-alert-subtle: var(--status-alert-subtle);
+  --color-status-brand: var(--status-brand);
+  --color-status-brand-bold: var(--status-brand-bold);
+  --color-status-brand-subtle: var(--status-brand-subtle);
+
+  /* ── Chart ── */
+  --color-chart-100: var(--chart-100);
+  --color-chart-200: var(--chart-200);
+  --color-chart-300: var(--chart-300);
+  --color-chart-400: var(--chart-400);
+  --color-chart-500: var(--chart-500);
+  --color-chart-600: var(--chart-600);
+  --color-chart-700: var(--chart-700);
+}
