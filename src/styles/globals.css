@@ -12,31 +12,6 @@
   --font-sans: var(--font-pretendard), system-ui, sans-serif;
 }
 
-/*
- * nst-tiptap 에디터/뷰어 테마를 Pretendard 폰트와 NDS 토큰으로 맞춘다.
- * 라이브러리 CSS의 :root 정의보다 우선하도록 선택자 우선순위를 높였다.
- */
-html:root {
-  --editor-font-family: var(--font-pretendard), system-ui, sans-serif;
-  --editor-text-color: var(--text-primary);
-  --editor-muted-text-color: var(--text-tertiary);
-  --editor-placeholder-color: var(--text-disabled);
-  --editor-bg-color: var(--bg-tertiary);
-  --editor-code-bg-color: var(--bg-primary);
-  --editor-border-color: var(--border-tertiary);
-  --editor-subtle-border-color: var(--border-tertiary);
-  --editor-accent-color: var(--text-interactive-primary);
-  --editor-radius: var(--radius-sm);
-  --editor-toolbar-icon-color: var(--text-primary);
-  --editor-toolbar-icon-disabled-color: var(--text-disabled);
-  --editor-toolbar-hover-bg-color: var(--bg-interactive-secondary-hover);
-  --editor-toolbar-active-bg-color: var(--bg-interactive-selected);
-  --editor-popup-bg-color: var(--bg-tertiary);
-  --editor-popup-hover-bg-color: var(--bg-interactive-secondary-hover);
-  --editor-popup-selected-bg-color: var(--bg-interactive-primary);
-  --editor-popup-selected-text-color: var(--text-inverse);
-}
-
 @layer base {
   * {
     @apply wrap-break-word break-keep;
